@@ -1,6 +1,6 @@
 //
 //  my_first_appApp.swift
-//  my first app
+//  ShopAppCheckoutRemake
 //
 //  Created by Yordani Awono on 2/5/26.
 //

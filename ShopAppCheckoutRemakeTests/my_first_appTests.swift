@@ -1,6 +1,6 @@
 //
 //  my_first_appTests.swift
-//  my first appTests
+//  ShopAppCheckoutRemakeTests
 //
 //  Created by Yordani Awono on 2/5/26.
 //

@@ -12,37 +12,37 @@
 			containerPortal = E0800D792F34C569006A270C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0800D802F34C569006A270C;
-			remoteInfo = "my first app";
+			remoteInfo = "ShopAppCheckoutRemake";
 		};
 		E0800D992F34C56A006A270C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0800D792F34C569006A270C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0800D802F34C569006A270C;
-			remoteInfo = "my first app";
+			remoteInfo = "ShopAppCheckoutRemake";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E0800D812F34C569006A270C /* my first app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my first app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0800D8E2F34C56A006A270C /* my first appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my first appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0800D982F34C56A006A270C /* my first appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my first appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0800D812F34C569006A270C /* ShopAppCheckoutRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShopAppCheckoutRemake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0800D8E2F34C56A006A270C /* ShopAppCheckoutRemakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShopAppCheckoutRemakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0800D982F34C56A006A270C /* ShopAppCheckoutRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShopAppCheckoutRemakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E0800D832F34C569006A270C /* my first app */ = {
+		E0800D832F34C569006A270C /* ShopAppCheckoutRemake */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "my first app";
+			path = "ShopAppCheckoutRemake";
 			sourceTree = "<group>";
 		};
-		E0800D912F34C56A006A270C /* my first appTests */ = {
+		E0800D912F34C56A006A270C /* ShopAppCheckoutRemakeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "my first appTests";
+			path = "ShopAppCheckoutRemakeTests";
 			sourceTree = "<group>";
 		};
-		E0800D9B2F34C56A006A270C /* my first appUITests */ = {
+		E0800D9B2F34C56A006A270C /* ShopAppCheckoutRemakeUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "my first appUITests";
+			path = "ShopAppCheckoutRemakeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		E0800D782F34C569006A270C = {
 			isa = PBXGroup;
 			children = (
-				E0800D832F34C569006A270C /* my first app */,
-				E0800D912F34C56A006A270C /* my first appTests */,
-				E0800D9B2F34C56A006A270C /* my first appUITests */,
+				E0800D832F34C569006A270C /* ShopAppCheckoutRemake */,
+				E0800D912F34C56A006A270C /* ShopAppCheckoutRemakeTests */,
+				E0800D9B2F34C56A006A270C /* ShopAppCheckoutRemakeUITests */,
 				E0800D822F34C569006A270C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		E0800D822F34C569006A270C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0800D812F34C569006A270C /* my first app.app */,
-				E0800D8E2F34C56A006A270C /* my first appTests.xctest */,
-				E0800D982F34C56A006A270C /* my first appUITests.xctest */,
+				E0800D812F34C569006A270C /* ShopAppCheckoutRemake.app */,
+				E0800D8E2F34C56A006A270C /* ShopAppCheckoutRemakeTests.xctest */,
+				E0800D982F34C56A006A270C /* ShopAppCheckoutRemakeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0800D802F34C569006A270C /* my first app */ = {
+		E0800D802F34C569006A270C /* ShopAppCheckoutRemake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0800DA22F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first app" */;
+			buildConfigurationList = E0800DA22F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemake" */;
 			buildPhases = (
 				E0800D7D2F34C569006A270C /* Sources */,
 				E0800D7E2F34C569006A270C /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E0800D832F34C569006A270C /* my first app */,
+				E0800D832F34C569006A270C /* ShopAppCheckoutRemake */,
 			);
-			name = "my first app";
+			name = "ShopAppCheckoutRemake";
 			packageProductDependencies = (
 			);
-			productName = "my first app";
-			productReference = E0800D812F34C569006A270C /* my first app.app */;
+			productName = "ShopAppCheckoutRemake";
+			productReference = E0800D812F34C569006A270C /* ShopAppCheckoutRemake.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0800D8D2F34C56A006A270C /* my first appTests */ = {
+		E0800D8D2F34C56A006A270C /* ShopAppCheckoutRemakeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0800DA52F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first appTests" */;
+			buildConfigurationList = E0800DA52F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemakeTests" */;
 			buildPhases = (
 				E0800D8A2F34C56A006A270C /* Sources */,
 				E0800D8B2F34C56A006A270C /* Frameworks */,
@@ -131,18 +131,18 @@
 				E0800D902F34C56A006A270C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E0800D912F34C56A006A270C /* my first appTests */,
+				E0800D912F34C56A006A270C /* ShopAppCheckoutRemakeTests */,
 			);
-			name = "my first appTests";
+			name = "ShopAppCheckoutRemakeTests";
 			packageProductDependencies = (
 			);
-			productName = "my first appTests";
-			productReference = E0800D8E2F34C56A006A270C /* my first appTests.xctest */;
+			productName = "ShopAppCheckoutRemakeTests";
+			productReference = E0800D8E2F34C56A006A270C /* ShopAppCheckoutRemakeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E0800D972F34C56A006A270C /* my first appUITests */ = {
+		E0800D972F34C56A006A270C /* ShopAppCheckoutRemakeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0800DA82F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first appUITests" */;
+			buildConfigurationList = E0800DA82F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemakeUITests" */;
 			buildPhases = (
 				E0800D942F34C56A006A270C /* Sources */,
 				E0800D952F34C56A006A270C /* Frameworks */,
@@ -154,13 +154,13 @@
 				E0800D9A2F34C56A006A270C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E0800D9B2F34C56A006A270C /* my first appUITests */,
+				E0800D9B2F34C56A006A270C /* ShopAppCheckoutRemakeUITests */,
 			);
-			name = "my first appUITests";
+			name = "ShopAppCheckoutRemakeUITests";
 			packageProductDependencies = (
 			);
-			productName = "my first appUITests";
-			productReference = E0800D982F34C56A006A270C /* my first appUITests.xctest */;
+			productName = "ShopAppCheckoutRemakeUITests";
+			productReference = E0800D982F34C56A006A270C /* ShopAppCheckoutRemakeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0800D7C2F34C569006A270C /* Build configuration list for PBXProject "my first app" */;
+			buildConfigurationList = E0800D7C2F34C569006A270C /* Build configuration list for PBXProject "ShopAppCheckoutRemake" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0800D802F34C569006A270C /* my first app */,
-				E0800D8D2F34C56A006A270C /* my first appTests */,
-				E0800D972F34C56A006A270C /* my first appUITests */,
+				E0800D802F34C569006A270C /* ShopAppCheckoutRemake */,
+				E0800D8D2F34C56A006A270C /* ShopAppCheckoutRemakeTests */,
+				E0800D972F34C56A006A270C /* ShopAppCheckoutRemakeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		E0800D902F34C56A006A270C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E0800D802F34C569006A270C /* my first app */;
+			target = E0800D802F34C569006A270C /* ShopAppCheckoutRemake */;
 			targetProxy = E0800D8F2F34C56A006A270C /* PBXContainerItemProxy */;
 		};
 		E0800D9A2F34C56A006A270C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E0800D802F34C569006A270C /* my first app */;
+			target = E0800D802F34C569006A270C /* ShopAppCheckoutRemake */;
 			targetProxy = E0800D992F34C56A006A270C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,7 +472,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my first app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/my first app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopAppCheckoutRemake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopAppCheckoutRemake";
 			};
 			name = Debug;
 		};
@@ -494,7 +494,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my first app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/my first app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopAppCheckoutRemake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopAppCheckoutRemake";
 			};
 			name = Release;
 		};
@@ -514,7 +514,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "my first app";
+				TEST_TARGET_NAME = "ShopAppCheckoutRemake";
 			};
 			name = Debug;
 		};
@@ -534,14 +534,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "my first app";
+				TEST_TARGET_NAME = "ShopAppCheckoutRemake";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0800D7C2F34C569006A270C /* Build configuration list for PBXProject "my first app" */ = {
+		E0800D7C2F34C569006A270C /* Build configuration list for PBXProject "ShopAppCheckoutRemake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0800DA02F34C56A006A270C /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0800DA22F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first app" */ = {
+		E0800DA22F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0800DA32F34C56A006A270C /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0800DA52F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first appTests" */ = {
+		E0800DA52F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemakeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0800DA62F34C56A006A270C /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0800DA82F34C56A006A270C /* Build configuration list for PBXNativeTarget "my first appUITests" */ = {
+		E0800DA82F34C56A006A270C /* Build configuration list for PBXNativeTarget "ShopAppCheckoutRemakeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0800DA92F34C56A006A270C /* Debug */,
