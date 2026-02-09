@@ -42,6 +42,7 @@ struct ContentView: View {
                     Image(systemName: "xmark")
                         .padding(.leading, 20)
                         .font(.system(size: 24))
+                        
                     Spacer()
                 }
             }
@@ -55,14 +56,16 @@ struct ContentView: View {
             
             HStack() {
                 HStack(spacing: 12){
-                    RoundedRectangle(cornerRadius: 14)
-                        .fill(Color(.systemGray5))
+                    RoundedRectangle(cornerRadius: 10
+                    )
+                        .stroke(Color(.systemGray5))
                         .frame(width: 64, height: 64)
                         .aspectRatio(1, contentMode: .fit)
                         .overlay {
-                            Image(systemName: "photo")
-                                .font(.system(size: 20))
-                                .foregroundColor(.gray)
+                            Image("oncloud6wpf")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(6)
                         }
                     
                     Text("On Men's Cloud 6 Waterproof")
@@ -124,7 +127,7 @@ struct ContentView: View {
                 HStack(){
                     Text("Discount")
                         .font(.system(size: 15))
-                    Image(systemName: "exclamationmark.circle")
+                    Image(systemName: "questionmark.circle")
                         .font(.system(size: 14))
                 }
                 
@@ -144,7 +147,7 @@ struct ContentView: View {
                 Spacer()
                 Text("\(Text("USD ").foregroundStyle(.gray).fontWeight(.regular).font(.system(size: 12))) \(finalTotal, format: .currency(code: "USD"))")
                     .font(.system(size: 18))
-                    .fontWeight(.medium)
+                    .fontWeight(.semibold)
             }
             .padding(.horizontal, 20)
             
@@ -159,15 +162,16 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, alignment: .center)
             
             HStack(spacing: 8){
-                HStack(spacing: 12){
-                    RoundedRectangle(cornerRadius: 14)
-                        .fill(Color(.systemGray5))
+                HStack(spacing: 15){
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color(.systemGray5))
                         .frame(width: 64, height: 64)
                         .aspectRatio(1, contentMode: .fit)
                         .overlay {
-                            Image(systemName: "photo")
-                                .font(.system(size: 20))
-                                .foregroundColor(.gray)
+                            Image("nikemind001")
+                                .resizable()
+                                .scaledToFit()
+//                                .padding(6)
                         }
                     
                     VStack(alignment: .leading, spacing: 4){
@@ -177,7 +181,7 @@ struct ContentView: View {
                             .font(.system(size: 15))
                         Text("$120.00")
                             .font(.system(size: 15))
-                            .foregroundStyle(.indigo)
+                            .foregroundStyle(Color(red: 94/255, green: 50/255, blue: 250/255))
                             
                     }
                     
@@ -186,13 +190,13 @@ struct ContentView: View {
                 
                 Text("Size")
                     .font(.system(size: 13))
-                    .foregroundStyle(.indigo)
+                    .foregroundStyle(Color(red: 94/255, green: 50/255, blue: 250/255))
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(20)
+            .padding(15)
             .overlay(
                 RoundedRectangle(cornerRadius: 10)
-                    .stroke(.gray, lineWidth: 1)
+                    .stroke(Color(.systemGray5), lineWidth: 1)
             )
             .padding(.horizontal, 20)
             
@@ -228,7 +232,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .buttonBorderShape(.roundedRectangle(radius: 10))
-                .tint(.indigo)
+                .tint(Color(red: 94/255, green: 50/255, blue: 250/255))
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 20)
